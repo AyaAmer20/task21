@@ -1,0 +1,43 @@
+
+.rr{
+    font-size: 30px;
+    padding: 2%;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    background-color: bisque;
+    margin: 80px;
+    transition: all 0.1s 0.1s linear; 
+    position: relative;
+    
+}
+.rr:hover{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.er{
+    background-color: peru;
+    height: 60px;
+    
+}
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+   --mainmargin:20px;
+   --maborder:2px soild red;
+   --maborder-radius:5px;
+
+  }
+  .aa{
+    background-color: var(--mainColor);
+    padding: var(--mainPadding);
+    margin: var(--mainmargin);
+  }
+  .bb{
+    padding: 2%;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+  }

@@ -1,0 +1,18 @@
+1....4
+.title اسم class فى html يتم توريث فى css
+#nav سم  id فى html يتم توريث فى css
+div{ عباره عن block 
+h2{ عباره عن head للكتايه الخصائص
+التكليف 2
+
+<link rel="stylesheet" href="css/file.css" /> كود للرابط ملف css بى html
+<style>
+p {
+  color: red;   فى cssللعطاء البراجراف للون الاحمر 
+}
+<p style="color: blue;">This Is Our Paragraph</p> للعطاء الكلمات اللون الاحمر بس فى html
+تكليف 3
+<link rel="stylesheet" href="{ Write Path Here }" />   للعمل مسار باسم للملف css
+تكليف 5
+._user-name  .u{
+

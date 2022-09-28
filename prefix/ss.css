@@ -1,0 +1,35 @@
+div{
+
+    float: left;
+        width: 100px;
+        height: 100px;
+        background-color:#eee;
+        color: #ff5722;
+        margin: 40px auto;
+       border-radius: 50%;
+       align-items: center;
+       
+       box-shadow: 5px 0 0 , -5px 0 0 #03a9f4;
+    display: flex;
+    justify-content: center;
+counter-increment: Aya;
+   padding: 3%;
+
+}
+h1{
+    font-size: 20px;
+    
+    
+}
+div::before{
+    content: counter(Aya);
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: 40px;
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+div{
+    width: 340px;
+    height: 33px;
+    margin: 30px;
+    padding: 2%;
+    text-align: center;
+    background-color: gray;
+}
+div:empty{
+    background-color: red;
+}
+.ps{
+    
+    font-size: 20px;
+}
+.ps::first-letter{
+    font-size: larger;
+    background-color: red;
+}
+.aa{
+    text-align: center;
+    width: 340px;
+    height: 33px;
+    margin: 30px;
+    padding: 2%;
+    right: 30px;
+    background-color: gray;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.aa::before{
+
+    content: attr(data-person);
+    background-color:red;
+
+    padding-right: 30px;
+    padding: 9%;
+    right: 50px;
+
+}
+.rr{
+    text-align: center;
+    width: 340px;
+    height: 33px;
+    margin-bottom: 20px;
+    padding: 2%;
+    font-size: 20px;
+    background-color: gray;
+    counter-increment: member;
+    overflow: hidden;
+}  
+.rr::before{
+    right: 50px;
+    width: 20%;
+    content: counter(member);
+    background-color: red;
+    position: relative;
+    padding-right: 30px;
+    padding: 9%;
+
+}
+.rr::after
+{
+    content: "";
+position: absolute;
+width: 5px;
+height: 100%;
+right: -10px;
+top: 0px;
+background-color: blue;
+
+
+
+
+}
+
+
+
